@@ -1,0 +1,58 @@
+.banner {
+  width: 100%;
+  .cover {
+    width: 100%;
+    height: 50vh;
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+      object-fit: cover;
+    }
+  }
+  .followersContainer {
+    position: absolute;
+    border-radius: 5px;
+    top: 52vh;
+    left: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    .follow {
+      cursor: pointer;
+      h4 {
+        font-size: 18px;
+        &:hover {
+          color: red;
+        }
+      }
+      margin-right: 20px;
+      text-align: center;
+
+      p {
+        margin-top: -10px;
+        font-size: 22px;
+      }
+    }
+  }
+  .profile {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    top: 40vh;
+    left: 140px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    h4 {
+      font-size: 20px;
+      font-weight: 700;
+      color: rgb(75, 73, 73);
+    }
+  }
+}

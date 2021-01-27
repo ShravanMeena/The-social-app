@@ -1,0 +1,44 @@
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.137);
+  position: fixed;
+  background: #ffffff;
+  z-index: 999;
+  .innerHeader {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .left {
+      width: 50%;
+      h4 {
+        font-size: 20px;
+        font-weight: 800;
+        cursor: pointer;
+        width: 100px;
+        span {
+          color: #4d84e2;
+        }
+      }
+    }
+    .right {
+      width: 50%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      h4 {
+        font-size: 16px;
+        &:hover {
+          cursor: pointer;
+          color: #4d84e2;
+        }
+      }
+    }
+  }
+}

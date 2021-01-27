@@ -1,0 +1,59 @@
+.profile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .card {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .innerCard {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      // justify-content: center;
+      img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      h4 {
+        font-size: 20px;
+        &:hover {
+          color: #4d84e2;
+          cursor: pointer;
+        }
+      }
+      p {
+        width: 80%;
+        font-size: 12px;
+        font-weight: 400;
+        color: gray;
+        text-align: center;
+      }
+      .followContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .follow {
+          text-align: center;
+          h4 {
+            font-size: 16px;
+          }
+          h6 {
+            font-size: 14px;
+            color: gray;
+            margin-top: -10px;
+          }
+        }
+      }
+    }
+  }
+}

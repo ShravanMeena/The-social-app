@@ -1,0 +1,27 @@
+.home {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 30px 150px;
+  min-height: 100vh;
+  padding-top: 15vh;
+  // .left {
+  //   width: 30%;
+  //   height: 100%;
+  // }
+  .middle {
+    width: 60%;
+    background-color: "#fff";
+    height: 100%;
+  }
+  .right {
+    width: 30%;
+    background-color: "#fff";
+    height: 100%;
+    position: fixed;
+    margin-left: 50%;
+  }
+}

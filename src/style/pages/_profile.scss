@@ -1,0 +1,25 @@
+.mainProfile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10vh;
+
+  .innerMainProfile {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 80%;
+    .left {
+      width: 20%;
+    }
+    .middle {
+      width: 60%;
+    }
+    .right {
+      width: 20%;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.suggestions {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .card {
+    width: 90%;
+    margin-bottom: 10px;
+    h1 {
+      font-size: 20px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      margin-bottom: 30px;
+    }
+    .innerCard {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      margin-top: 10px;
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      .bio {
+        width: 75%;
+        h4 {
+          font-size: 16px;
+          margin-left: 10px;
+          cursor: pointer;
+          &:hover {
+            color: #4d84e2;
+          }
+        }
+        p {
+          width: 80%;
+          font-size: 12px;
+          font-weight: 400;
+          color: gray;
+          margin-top: -10px;
+          margin-left: 10px;
+        }
+      }
+      button {
+        width: 25%;
+        margin-left: 20px;
+      }
+    }
+  }
+}
