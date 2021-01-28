@@ -2,19 +2,6 @@
 
 # Quick liks
 1. [Screenshots](#screenshots)
-2. [Own the project](#own-the-project)
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Screenshots
@@ -33,8 +20,6 @@
 ![alt text](https://i.ibb.co/Ryt59Nz/Whats-App-Image-2020-12-25-at-05-43-48-1.jpg)
 
 
-UI is taken from [Instagam-clone](https://github.com/yTakkar/Instagram-Clone) I created!!
-
 # Own the project
 1. First install all dependencies:
     ```bash
@@ -45,18 +30,11 @@ UI is taken from [Instagam-clone](https://github.com/yTakkar/Instagram-Clone) I 
     yarn
     ```
 
-2. Open PHPMyAdmin, create a DB & import `db.sql` file.
 3. Create a `.env` file and insert the following code. Replace values with yours!!
 
     ```javascript
-    PORT=YOUR_PORT
-    MYSQL_HOST="host"
-    MYSQL_USER="user"
-    MYSQL_PASSWORD="password"
-    MYSQL_DATABASE="db"
-    MAIL="yourgmail@gmail.com"
-    MAIL_PASSWORD="gmail-password"
-    SESSION_SECRET_LETTER="anything-secret"
+    REACT_APP_API_URL = http://localhost:5000
+    REACT_APP_CLIENT_URL = http://localhost:3000
     ```
 
 4. Start the server
