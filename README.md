@@ -16,18 +16,11 @@ A reactive single-page-social-network created with React. Screenshots below!!
 1. [Screenshots](#screenshots)
 2. [Own the project](#own-the-project)
 
+
+
 # Screenshots
-![alt text](https://raw.githubusercontent.com/yTakkar/Single-Page-Social-Network/master/screenshots/Snap%202017-07-27%20at%2000.27.11.png)
-![alt text](https://raw.githubusercontent.com/yTakkar/Single-Page-Social-Network/master/screenshots/Snap%202017-07-27%20at%2000.27.24.png)
-![alt text](https://raw.githubusercontent.com/yTakkar/Single-Page-Social-Network/master/screenshots/Snap%202017-07-27%20at%2000.27.34.png)
-![alt text](https://raw.githubusercontent.com/yTakkar/Single-Page-Social-Network/master/screenshots/Snap%202017-07-27%20at%2000.27.45.png)
-![alt text](https://raw.githubusercontent.com/yTakkar/Single-Page-Social-Network/master/screenshots/Snap%202017-07-27%20at%2000.29.13.png)
-![alt text](https://raw.githubusercontent.com/yTakkar/Single-Page-Social-Network/master/screenshots/Snap%202017-07-27%20at%2000.31.06.png)
-![alt text](https://raw.githubusercontent.com/yTakkar/Single-Page-Social-Network/15f084078b23b862a7537adbc721623e0b81578d/screenshots/Snap%202017-09-17%20at%2013.30.18.png)
-![alt text](https://raw.githubusercontent.com/yTakkar/Single-Page-Social-Network/master/screenshots/Snap%202017-07-27%20at%2000.29.35.png)
 ![alt text](https://raw.githubusercontent.com/yTakkar/Single-Page-Social-Network/master/screenshots/Snap%202017-07-27%20at%2000.28.54.png)
 
-[More screenshots](https://github.com/yTakkar/Single-Page-Social-Network/tree/master/screenshots).
 
 UI is taken from [Instagam-clone](https://github.com/yTakkar/Instagram-Clone) I created!!
 
