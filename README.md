@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Single-Page-Social-Network
+A reactive single-page-social-network created with React. Screenshots below!!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**No longer maintained. But it works**
 
-## Available Scripts
+**[Please visit this link](https://github.com/yTakkar/React-Instagram-Clone-2.0)** for the updated version of this project.
 
-In the project directory, you can run:
+# Other Versions
+**[Vue Version](https://github.com/yTakkar/Vue-Mini-Social-Network)**
 
-### `yarn start`
+**[Golang Version](https://github.com/yTakkar/Go-Page-Social-Network)**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**[Ruby On Rails Version](https://github.com/yTakkar/Rails-Mini-Social-Network)**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Quick liks
+1. [Screenshots](#screenshots)
+2. [Own the project](#own-the-project)
 
-### `yarn test`
+# Screenshots
+![alt text](https://raw.githubusercontent.com/yTakkar/Single-Page-Social-Network/master/screenshots/Snap%202017-07-27%20at%2000.27.11.png)
+![alt text](https://raw.githubusercontent.com/yTakkar/Single-Page-Social-Network/master/screenshots/Snap%202017-07-27%20at%2000.27.24.png)
+![alt text](https://raw.githubusercontent.com/yTakkar/Single-Page-Social-Network/master/screenshots/Snap%202017-07-27%20at%2000.27.34.png)
+![alt text](https://raw.githubusercontent.com/yTakkar/Single-Page-Social-Network/master/screenshots/Snap%202017-07-27%20at%2000.27.45.png)
+![alt text](https://raw.githubusercontent.com/yTakkar/Single-Page-Social-Network/master/screenshots/Snap%202017-07-27%20at%2000.29.13.png)
+![alt text](https://raw.githubusercontent.com/yTakkar/Single-Page-Social-Network/master/screenshots/Snap%202017-07-27%20at%2000.31.06.png)
+![alt text](https://raw.githubusercontent.com/yTakkar/Single-Page-Social-Network/15f084078b23b862a7537adbc721623e0b81578d/screenshots/Snap%202017-09-17%20at%2013.30.18.png)
+![alt text](https://raw.githubusercontent.com/yTakkar/Single-Page-Social-Network/master/screenshots/Snap%202017-07-27%20at%2000.29.35.png)
+![alt text](https://raw.githubusercontent.com/yTakkar/Single-Page-Social-Network/master/screenshots/Snap%202017-07-27%20at%2000.28.54.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[More screenshots](https://github.com/yTakkar/Single-Page-Social-Network/tree/master/screenshots).
 
-### `yarn build`
+UI is taken from [Instagam-clone](https://github.com/yTakkar/Instagram-Clone) I created!!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Own the project
+1. First install all dependencies:
+    ```bash
+    # with npm
+    npm install
+    
+    # or with yarn
+    yarn
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Open PHPMyAdmin, create a DB & import `db.sql` file.
+3. Create a `.env` file and insert the following code. Replace values with yours!!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```javascript
+    PORT=YOUR_PORT
+    MYSQL_HOST="host"
+    MYSQL_USER="user"
+    MYSQL_PASSWORD="password"
+    MYSQL_DATABASE="db"
+    MAIL="yourgmail@gmail.com"
+    MAIL_PASSWORD="gmail-password"
+    SESSION_SECRET_LETTER="anything-secret"
+    ```
 
-### `yarn eject`
+4. Start the server
+    ```javascript
+    npm start
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+5. Now run the app
+    ```javacript
+    localhost:[PORT]     PORT = YOU DEFINED IN .ENV FILE. 1157 BY DEFAULT!!
+    ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+6. Enjoy!!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Contribute
+Show your support by 🌟 the project!!
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to contribute!!
