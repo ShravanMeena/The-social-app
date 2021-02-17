@@ -55,3 +55,6 @@
 Show your support by 🌟 the project!!
 
 Feel free to contribute!!
+
+
+## Sorry, the images are being uploaded right now but there are some problems in getting the show on frontend. I will fix that soon
